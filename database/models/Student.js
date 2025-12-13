@@ -23,7 +23,7 @@ const Student = db.define("student", {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: 'https://img.freepik.com/premium-photo/3d-illustration-cartoon-character-avatar-profile_1183071-136.jpg',
+    defaultValue: 'https://simplyilm.com/wp-content/uploads/2017/08/temporary-profile-placeholder-1.jpg',
   },
   gpa: {
     type: Sequelize.DECIMAL(2, 1),
